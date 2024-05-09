@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "377647324448",
+    "project_id": "halkhabar-13a4f",
+    "storage_bucket": "halkhabar-13a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377647324448:android:e5fc7479e2b2956d528b45",
+        "android_client_info": {
+          "package_name": "com.example.halkhabar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1xHz7QZT5IR3LVpl3N6taxKHWTFoDWuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
