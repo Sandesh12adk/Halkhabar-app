@@ -68,5 +68,6 @@ public class SIGNIN extends AppCompatActivity {
     private void noaccount() {
         Intent intent = new Intent(SIGNIN.this, SignUP.class);
         startActivity(intent);
+        finish(); // To prevent going back with back button
     }
 }

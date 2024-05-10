@@ -19,7 +19,14 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/chaticon" />
     </LinearLayout>
-
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/SigninBackground"
+        android:progressTint="#DA1616"
+        android:visibility="gone" />
 
     <EditText
         android:id="@+id/email"
@@ -34,7 +41,8 @@
         android:hint="Email"
         android:inputType="text"
         android:padding="8dp"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:textColor="#090909" />
 
     <EditText
         android:id="@+id/password"
@@ -47,7 +55,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="8dp"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:textColor="#FF090909" />
 
     <TextView
         android:id="@+id/first"
@@ -66,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="#606FC6"
-        android:text="SIGN IN"
+        android:text="Login"
         android:textSize="23dp" />
 
     <LinearLayout
